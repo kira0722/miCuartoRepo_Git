@@ -14,3 +14,9 @@ def get_familia():
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
+
+
+@app.get("/CurosPLat")
+def get_superheroes():
+    rows = ["casr", "sad", "da", "Linterna Vfsderde", "Mujer fsdsfd", "Aquamandfs", "dfss", "fsdfs"]
+    return rows
